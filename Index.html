@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OhMyFood</title>  
+    
+    <link rel="stylesheet" href="./style.sass">
+    <script src="https://kit.fontawesome.com/9f950ff854.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="main-container">
+        <!--logo du site et sa localisation-->
+        <header>
+            <div class="logo centerflex">
+                <img src="./images/logo/ohmyfood@2x.svg">
+            </div>
+            <div class="location__background--darkergray centerflex">
+                <p>
+                    <i class="fa-solid fa-location-dot" style="color: #000000;"></i>
+                    Paris, Belleville 
+                </p>
+            </div>
+        </header>
+        <!--Rapide présentation du site-->
+            <section class="explorer">
+                <div class="centerflex">            
+                    <h1>Réservez le menu qui vous convient</h1>
+                </div>  
+                <div class="centerflex">
+                    <p>Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
+                </div>
+                <div class="section_button">
+                    <a class="cta cta-explorer centerflex" href="#">
+                      <p>Explorer nos restaurants</p>
+                    </a>
+                </div>            
+            </section>
+            <!--Fonctionnement du site-->
+            <section class="functioning">
+                <h1>Fontionnement</h1>
+                    <div class="functioning-instruction">
+                        <div class="instruction">
+                            <div class="instruction-content centerflex">
+                                <div class="instruction-img">
+                                    <i class="fa-solid fa-mobile-screen" style="color: #7e7e7e;"></i>
+                                </div>
+                                <div class="instruction-txt">
+                                    <p>Choisissez un restaurant</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="instruction">
+                            <div class="instruction-content centerflex">
+                                <div class="instruction-img">
+                                    <i class="fa-solid fa-list-ul" style="color: #7e7e7e;"></i>
+                                </div>
+                                <div class="instruction-txt">
+                                    <p>Composez votre menu</p>
+                                </div>             
+                            </div>
+                        </div>
+                        <div class="instruction">
+                            <div class="instruction-content centerflex">
+                                <div class="instruction-img">
+                                    <i class="fa-sharp fa-solid fa-store" style="color: #9356DC;"></i>
+                                </div>
+                                <div class="instruction-txt">
+                                    <p>Dégustez au restaurant</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <!--Les différents restaurants avec lien cliquable vers le menu de chacun-->
+            <section class="restaurants">
+                <h1 class="restaurants_title">Restaurants</h1>
+                    <div class="restaurants_div">
+                        <article class="restaurants_card">
+                            <a class="card__link" href="#">
+                                <span class="restaurants_card-new">Nouveau</span>
+                                    <div class="restaurants_img-card">
+                                        <img src="./images/restaurants/jay-wennington.jpg" alt="Table du restaurant la palette du goût">
+                                    </div>
+                                        <div class="restaurants_card-div">                              
+                                            <h2 class="restaurants_title-card">La palette du goût</h2>
+                                            <p class="restaurants_text-card">Ménilmontant</p>     
+                                        </div>                           
+                            </a>
+                        </article>
+                        <article class="restaurants_card">
+                            <a class="card__link" href="#">
+                                <span class="restaurants_card-new">Nouveau</span>
+                                    <div class="restaurants_img-card">
+                                        <img src="./images/restaurants/jay-wennington.jpg" alt="Table du restaurant la palette du goût">
+                                    </div>
+                                        <div class="restaurants_card-div">                              
+                                            <h2 class="restaurants_title-card">La palette du goût</h2> 
+                                        </div>
+                                        <p class="restaurants_text-card">Ménilmontant</p>    
+                            </a>
+                        </article>
+                        <article class="restaurants_card">
+                            <a class="card__link" href="#">
+                                    <div class="restaurants_img-card">
+                                        <img src="./images/restaurants/jay-wennington.jpg" alt="Table du restaurant la palette du goût">
+                                    </div>
+                                        <div class="restaurants_card-div">                              
+                                            <h2 class="restaurants_title-card">La palette du goût</h2> 
+                                        </div>
+                                        <p class="restaurants_text-card">Ménilmontant</p>    
+                            </a>
+                        </article>
+                        <article class="restaurants_card">
+                            <a class="card__link" href="#">
+                                    <div class="restaurants_img-card">
+                                        <img src="./images/restaurants/jay-wennington.jpg" alt="Table du restaurant la palette du goût">
+                                    </div>
+                                        <div class="restaurants_card-div">                              
+                                            <h2 class="restaurants_title-card">La palette du goût</h2> 
+                                        </div>
+                                        <p class="restaurants_text-card">Ménilmontant</p>    
+                            </a>
+                        </article>
+                    </div>
+            </section>
+            <!--Le footer avec les différentes informations de contact-->
+            <footer>               
+                <img src="./images/logo/ohmyfoodblanc.png">             
+                <p><i class="fa-solid fa-utensils" style="color: #ffffff;"></i>Proposer un restaurant</p>
+                <p><i class="fa-solid fa-handshake-angle" style="color: #ffffff;"></i>Devenir partenaire</p>
+                <p>Mentions légales</p>
+                <p>Contact</p>
+            </footer>       
+    </div>
+</body>
