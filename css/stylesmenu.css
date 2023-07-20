@@ -54,12 +54,18 @@ header i {
 }
 
 /***Section Menu***/
-.menu {
-  background-color: #F6F6F6;
-  width: 100%;
-  border-radius: 40px 40px 0 0;
-  padding-bottom: 50px;
-  padding-top: 5px;
+.menu_section {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2%;
+  background-color: #F7F7F7;
+}
+
+.menu_background {
+  background-color: #F7F7F7;
+  position: relative;
+  border-radius: 20px 20px 0px 0px;
+  bottom: 60px;
 }
 
 .menu_title {
