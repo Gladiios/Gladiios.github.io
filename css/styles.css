@@ -41,6 +41,10 @@ h1 {
   color: white;
 }
 
+.cta:hover {
+  opacity: 0.8;
+}
+
 /***Header***/
 .location__background--darkergray {
   background-color: #EAEAEA;
@@ -136,15 +140,10 @@ header img {
   margin-top: 2%;
 }
 
-.restaurants .restaurants_title {
+.restaurants_title {
   display: inline;
   width: 30%;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-  color: #000000;
-  padding-left: 1.5%;
+  font-size: 30px;
 }
 
 .restaurants_div {
@@ -176,6 +175,11 @@ header img {
   flex-direction: column;
   justify-content: center;
   padding-top: 5px;
+}
+
+.heart_card {
+  position: absolute;
+  right: 5%;
 }
 
 .restaurants_title-card {
