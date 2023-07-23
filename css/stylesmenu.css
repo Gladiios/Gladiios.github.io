@@ -58,10 +58,6 @@ header i {
 }
 
 /***Section Menu***/
-.heart_card {
-  right: 5%;
-  top: 4%;
-}
 .menu_section {
   display: flex;
   flex-direction: column;
@@ -76,6 +72,14 @@ header i {
   bottom: 60px;
 }
 
+.entete i {
+  position: absolute;
+}
+
+.heart_card {
+  right: 5%;
+  top: 3.5%;
+}
 .menu_title {
   font-size: 2.2em;
   font-family: Shrikhand;
@@ -91,10 +95,6 @@ header i {
 .menu_content-title {
   font-weight: 100;
   font-size: 1.6em;
-}
-
-.entete i {
-  position: absolute;
 }
 
 .menu_card {
