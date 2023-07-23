@@ -50,23 +50,32 @@ header i
 
 .background_picture img
     width: 100%
+    height: 30vh
+    object-fit: cover
+    display: flex
+    margin: 0 auto
 
 /***Section Menu***/
 
 .menu_section
-    display: flex
-    flex-direction: column
-    padding-bottom: 2%
-    background-color: #F7F7F7
+    background-color: #f6f6f6
+    margin-bottom: 
 
 .menu_background
     background-color: #F7F7F7
-    position: relative
     border-radius: 20px 20px 0px 0px
     bottom: 60px
 
+.entete
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding-right: 20px
+    padding-top: 20px
+
 .entete i
-    position: absolute
+    font-size: 1.6em
+    font-weight: 400
     
 .heart_card
     position:absolute
@@ -81,7 +90,7 @@ header i
     padding-right:20px
 
 .menu_content
-    padding:0 20px 0 20px
+    padding:0 20px 0 40px
 
 .menu_content-title
     font-weight:100
@@ -131,7 +140,22 @@ footer img
     height: 1.5em
     width: 9em
     padding-top:5px
-    
-    
+
+@media (min-width: 768px)
+    .main-container
+        max-width: 1023.98px  
 
 
+
+
+
+@media (min-width: 1024px)
+    .main-container
+        max-width: 1440px
+    .menu_section
+        background-color: white
+    .menu_background
+        margin-right: 20px
+        margin-left: 20px
+        object-fit: cover
+        height: fit-content
