@@ -32,7 +32,7 @@ body {
   background: linear-gradient(#FF79DA, #9356DC);
   display: flex;
   align-items: center;
-  width: 40%;
+  width: 220px;
   text-decoration: none;
   color: white;
 }
@@ -47,31 +47,53 @@ body {
   padding-bottom: 10px;
 }
 
-header i {
-  position: absolute;
-  right: 90%;
-  bottom: 95%;
-}
-
-.background_picture img {
-  width: 100%;
-  height: 30vh;
-  -o-object-fit: cover;
-     object-fit: cover;
-  display: flex;
-  margin: 0 auto;
+.return_arrow {
+  position: relative;
+  bottom: 35px;
+  left: 20px;
 }
 
 /***Section Menu***/
+.background_picture1 {
+  background-image: url("../images/restaurants/jay-wennington.jpg");
+  background-size: cover;
+  height: 300px;
+  position: relative;
+}
+
+.background_picture2 {
+  background-image: url("../images/restaurants/louis-hansel.jpg");
+  background-size: cover;
+  height: 300px;
+  position: relative;
+}
+
+.background_picture3 {
+  background-image: url("../images/restaurants/restaurant3copie.jpg");
+  background-size: cover;
+  height: 300px;
+  position: relative;
+}
+
+.background_picture4 {
+  background-image: url("../images/restaurants/restaurant4.jpg");
+  background-size: cover;
+  height: 300px;
+  position: relative;
+}
+
 .menu_section {
-  background-color: #f6f6f6;
-  margin-bottom: -60px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2%;
+  background-color: #F7F7F7;
 }
 
 .menu_background {
   background-color: #F7F7F7;
   border-radius: 20px 20px 0px 0px;
   bottom: 60px;
+  position: relative;
 }
 
 .entete {
@@ -87,10 +109,6 @@ header i {
   font-weight: 400;
 }
 
-.heart_card {
-  right: 5%;
-  top: 3.5%;
-}
 .menu_title {
   font-size: 2.2em;
   font-family: Shrikhand;
@@ -106,6 +124,11 @@ header i {
 .menu_content-title {
   font-weight: 100;
   font-size: 1.6em;
+}
+
+.menu_content-title-bc {
+  border-bottom: 4px solid #99E2D0;
+  width: 60px;
 }
 
 .menu_card {
@@ -161,24 +184,30 @@ footer img {
   padding-top: 5px;
 }
 
-@media (min-width: 768px) {
-  .main-container {
-    max-width: 1023.98px;
-  }
-}
 @media (min-width: 1024px) {
   .main-container {
     max-width: 1440px;
   }
+  /***Menu***/
+  .entete {
+    justify-content: center;
+    padding-top: 60px;
+  }
+  .menu_content {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
   .menu_section {
+    padding-bottom: 0;
     background-color: white;
   }
   .menu_background {
-    margin-right: 20px;
-    margin-left: 20px;
-    -o-object-fit: cover;
-       object-fit: cover;
-    height: -moz-fit-content;
-    height: fit-content;
+    margin: 0 100px 0 100px;
+    padding-bottom: 50px;
+    bottom: 20px;
+  }
+  footer {
+    position: relative;
+    bottom: 20px;
   }
 }/*# sourceMappingURL=stylesmenu.css.map */
