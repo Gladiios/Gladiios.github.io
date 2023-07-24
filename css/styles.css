@@ -239,6 +239,14 @@ footer img {
   .main-container {
     max-width: 1023.98px;
   }
+  .lign-1, .lign-2 {
+    display: flex;
+    flex-direction: columns;
+    justify-content: center;
+    align-content: center;
+    padding: 0 20px 0 20px;
+    gap: 50px;
+  }
 }
 @media (min-width: 1024px) {
   .main-container {
@@ -250,16 +258,15 @@ footer img {
     padding-top: 30px;
   }
   .functionning {
-    width: 80%;
+    width: 100%;
   }
   .functioning-instruction {
     flex-direction: row;
     justify-content: center;
   }
   .instruction {
-    width: 24.3%;
+    width: 26%;
   }
-  /***Restaurants***/
   .restaurants {
     padding-bottom: 0;
   }
@@ -278,6 +285,6 @@ footer img {
     flex-direction: columns;
     justify-content: center;
     align-content: center;
-    gap: 100px;
+    gap: 50px;
   }
 }/*# sourceMappingURL=styles.css.map */
