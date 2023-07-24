@@ -37,7 +37,6 @@ body
 a
     text-decoration: none
     color: white
-    
 
 .cta:hover 
     opacity:0.8
@@ -120,17 +119,22 @@ a
 .menu_content-title-bc
     border-bottom: 4px solid #99E2D0
     width:60px
-    
+
+.menu_card_description
+    padding: 15px
 
 .menu_card
     box-shadow: 0px 4px 5px 0px #7E7E7E
     border-radius: 15px
     width: 95%
     background-color: #FFFFFF
-    padding-top:2px
-    padding-bottom:2px
-    margin-top:5px
     margin-bottom:30px
+    display: flex
+    overflow: hidden
+
+.menu_card h3, .menu_card p
+    margin: 0
+    padding: 0
     
 .menu_text
     font-weight:500
@@ -140,8 +144,36 @@ a
     padding-left:20px
 
 .content_price 
-    font-weight:900
+    margin-left: auto
+    font-weight: 900
+    align-items: center
+    display: flex
+    align-items: center
+    margin-right: 20px
 
+.menu_card-greencheck
+    background-color: #99E2D0
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-right: -4.1rem
+    width: 4.1rem
+    transition-duration: 1s
+
+.menu_card:hover .menu_card-greencheck
+    transition-duration: 500ms
+    margin-right: 0rem
+    cursor: pointer
+
+.menu_card-greencheck i
+    font-size: 1.6em
+    transform: rotate(0.25turn)
+    transition-duration: 1s 
+    
+.menu_card:hover .menu_card-greencheck i
+    transition-duration: 1s
+    transform: rotate(1turn)
+    
 .menu_card-title
     padding-left:20px
 
