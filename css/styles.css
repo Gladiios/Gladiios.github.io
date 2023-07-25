@@ -50,6 +50,146 @@ a {
   color: white;
 }
 
+/***LOADER***/
+@keyframes fadeOut {
+  to {
+    opacity: 0%;
+  }
+}
+.loader {
+  z-index: 1;
+  background: black;
+  position: fixed;
+  width: 100vh;
+  height: 100vh;
+  top: 0.1%;
+  opacity: 90%;
+  animation: fadeOut 4s ease forwards;
+  animation-delay: 3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes Smoke {
+  0% {
+    filter: blur(0px);
+    transform: translateY(0px) scale -1, 1;
+  }
+  25% {
+    filter: blur(3px);
+    transform: translateY(-10px) scale -1, 1.05;
+    opacity: 0.5;
+  }
+  50% {
+    filter: blur(5px);
+    transform: translateY(-20px) scale -1, 1.1;
+    opacity: 1;
+  }
+  75% {
+    filter: blur(5px);
+    transform: translateY(-30px) scale -1, 1.15;
+    opacity: 0.5;
+  }
+  100% {
+    filter: blur(7px);
+    transform: translateY(-40px) scale -1, 1.2;
+    opacity: 0;
+  }
+}
+@keyframes Smoke2 {
+  0% {
+    filter: blur(0px);
+    transform: translateY(0px) scale 1;
+  }
+  25% {
+    filter: blur(3px);
+    transform: translateY(-10px) scale 1.05;
+    opacity: 0.5;
+  }
+  50% {
+    filter: blur(5px);
+    transform: translateY(-20px) scale 1.1;
+    opacity: 1;
+  }
+  75% {
+    filter: blur(5px);
+    transform: translateY(-30px) scale 1.15;
+    opacity: 0.5;
+  }
+  100% {
+    filter: blur(7px);
+    transform: translateY(-40px) scale 1.2;
+    opacity: 0;
+  }
+}
+@keyframes Smoke3 {
+  0% {
+    filter: blur(0px);
+    transform: translateY(0px) scale 1;
+  }
+  25% {
+    filter: blur(3px);
+    transform: translateY(-20px) scale 1.05;
+    opacity: 0.5;
+  }
+  50% {
+    filter: blur(5px);
+    transform: translateY(-40px) scale 1.1;
+    opacity: 1;
+  }
+  75% {
+    filter: blur(5px);
+    transform: translateY(-60px) scale 1.15;
+    opacity: 0.5;
+  }
+  100% {
+    filter: blur(7px);
+    transform: translateY(-80px) scale 1.2;
+    opacity: 0;
+  }
+}
+.loader img {
+  max-width: 100%;
+}
+
+.loader_ramen_wrap {
+  width: 500px;
+  height: 600px;
+  position: relative;
+}
+
+.loader_ramen {
+  position: absolute;
+  bottom: 0;
+}
+
+.loader_smoke_wrap {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  bottom: 450px;
+}
+
+.loader_smoke, .loader_smoke2, .loader_smoke3 {
+  filter: blur(5px);
+  transform-origin: 50% 50%;
+}
+
+.loader_smoke {
+  animation: Smoke 3s linear infinite;
+}
+
+.loader_smoke2 {
+  animation: Smoke2 3s linear infinite;
+}
+
+.loader_smoke3 {
+  width: 500px;
+  animation: Smoke3 4s linear infinite;
+  animation-delay: 3s;
+}
+
 /***Header***/
 .location__background--darkergray {
   background-color: #EAEAEA;
