@@ -60,7 +60,7 @@ a {
   z-index: 1;
   background: black;
   position: fixed;
-  width: 100vh;
+  width: 100%;
   height: 100vh;
   top: 0.1%;
   opacity: 90%;
@@ -185,7 +185,7 @@ a {
 }
 
 .loader_smoke3 {
-  width: 500px;
+  width: 300px;
   animation: Smoke3 4s linear infinite;
   animation-delay: 3s;
 }
@@ -305,7 +305,7 @@ header i {
   margin-bottom: 5%;
   width: 95vw;
   background-color: #FFFFFF;
-  margin-left: 2%;
+  margin-left: 1%;
   height: 251px;
 }
 
