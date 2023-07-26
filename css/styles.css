@@ -31,7 +31,7 @@ h1 {
 .cta {
   position: relative;
   margin: auto;
-  box-shadow: 0px 4px 9px 0px #7E7E7E;
+  box-shadow: 0px 4px 9px 0px #575757;
   border-radius: 25px;
   background: linear-gradient(#FF79DA, #9356DC);
   display: flex;
@@ -43,6 +43,7 @@ h1 {
 
 .cta:hover {
   opacity: 0.8;
+  box-shadow: 0px 8px 12px 0px #444444;
 }
 
 a {
@@ -465,5 +466,10 @@ footer img {
     flex-direction: row-reverse;
     gap: 20px;
     align-items: center;
+  }
+}
+@media (min-width: 1440px) {
+  .main-container {
+    max-width: 2044px;
   }
 }/*# sourceMappingURL=styles.css.map */
