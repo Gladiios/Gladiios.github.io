@@ -34,12 +34,17 @@ body
     text-decoration: none
     color: white
 
+.cta:hover 
+    opacity:0.8
+
+.btn_padding
+    margin-top:60px
+    margin-bottom:20px
+
 a
     text-decoration: none
     color: white
 
-.cta:hover 
-    opacity:0.8
 
 /***Header***/
 
@@ -58,25 +63,21 @@ a
     background-image: url('../images/restaurants/jay-wennington.jpg')
     background-size: cover
     height: 300px 
-    position: relative
 
 .background_picture2
     background-image: url('../images/restaurants/louis-hansel.jpg')
     background-size: cover
     height: 300px 
-    position: relative
 
 .background_picture3
     background-image: url('../images/restaurants/restaurant3copie.jpg')
     background-size: cover
     height: 300px 
-    position: relative
-
+ 
 .background_picture4
     background-image: url('../images/restaurants/restaurant4.jpg')
     background-size: cover
     height: 300px 
-    position: relative
 
 .menu_section
     display: flex
@@ -196,9 +197,20 @@ a
 .menu_card-title
     padding-left:20px
 
-.btn_padding
-    margin-top:60px
-    margin-bottom:20px
+.heart_card
+    position: absolute
+    right:5%
+    font-size: 30px
+
+.heart_card-anim
+    font-size: 30px
+
+.heart_card-anim:hover
+    color: transparent
+    background: linear-gradient(#FF79DA,#9356DC)
+    background-clip: text
+    -webkit-background-clip: text
+    transition: transform cubic-bezier(.37,.38,.8,.77)
 
 
 /***Footer***/
@@ -206,10 +218,12 @@ a
 footer
     background-color: #353535
     width:100%
+    position: relative
 
 .footer_content 
     color: white
     padding:20px
+    z-index: 5
     
 footer i 
     padding-right:10px
@@ -239,9 +253,13 @@ footer img
         padding-right: 200px
     .menu_section
         padding-bottom: 0
-        background-color: #f7f7f7
+        background-color: #FFFFFF
     .menu_background
         padding-bottom:50px
+        margin-right: 100px
+        margin-left: 100px
+    .heart_card
+        right:30%
     /***Footer***/
     .footer_content
         display: flex
@@ -249,6 +267,6 @@ footer img
         gap: 20px
         align-items: center
     
-@media (min-width: 1439.98px)
-    .main-container
-        width: 100vw
+    .up
+        position: relative
+    
