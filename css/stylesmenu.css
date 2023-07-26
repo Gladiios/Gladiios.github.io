@@ -246,6 +246,10 @@ a {
   transition: transform cubic-bezier(0.37, 0.38, 0.8, 0.77);
 }
 
+.fa-circle-check, .fa-utensils, .fa-handshake-angle {
+  color: white;
+}
+
 /***Footer***/
 footer {
   background-color: #353535;
