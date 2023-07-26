@@ -310,4 +310,8 @@ footer img {
   .main-container {
     max-width: 2044px;
   }
+  .menu_content {
+    padding-right: 20vw;
+    padding-left: 20vw;
+  }
 }/*# sourceMappingURL=stylesmenu.css.map */
