@@ -64,6 +64,10 @@ a {
   left: 20px;
 }
 
+.return_arrow i {
+  color: black;
+}
+
 /***Section Menu***/
 .background_picture1 {
   background-image: url("../images/restaurants/jay-wennington.jpg");
@@ -231,6 +235,7 @@ a {
 
 .heart_card-anim {
   font-size: 30px;
+  color: transparent;
 }
 
 .heart_card-anim:hover {
