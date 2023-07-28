@@ -315,7 +315,11 @@ footer img {
     max-width: 2044px;
   }
   .menu_content {
-    padding-right: 20vw;
-    padding-left: 20vw;
+    padding-right: 15vw;
+    padding-left: 15vw;
+  }
+  .menu_background {
+    margin-right: 10vw;
+    margin-left: 10vw;
   }
 }/*# sourceMappingURL=stylesmenu.css.map */

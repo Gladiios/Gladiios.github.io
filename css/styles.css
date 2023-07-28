@@ -482,4 +482,38 @@ footer img {
     padding: 0;
     margin: 0;
   }
+  /**Restaurants***/
+  .restaurants_card {
+    width: 100%;
+    height: 250px;
+    align-content: normal;
+  }
+  .restaurants_div {
+    padding: 0;
+    padding-top: 25px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .lign-1, .lign-2 {
+    justify-content: normal;
+    align-content: normal;
+    gap: 50px;
+    width: 100%;
+  }
+  .restaurants_title {
+    padding-left: 30px;
+    padding-bottom: 15px;
+  }
+  /***Functionning***/
+  .instruction {
+    width: 22%;
+  }
+  .functioning-instruction {
+    gap: 100px;
+  }
+  .functioning_title {
+    padding-bottom: 15px;
+    padding-left: 30px;
+  }
 }/*# sourceMappingURL=styles.css.map */
