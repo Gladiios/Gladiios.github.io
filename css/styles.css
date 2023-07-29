@@ -256,7 +256,7 @@ header i {
 
 .instruction {
   background-color: #F6F6F6;
-  border-radius: 40px;
+  border-radius: 25px;
   padding: 15px;
   width: 80%;
   filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.2));
@@ -275,8 +275,11 @@ header i {
 }
 
 .instruction_number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
-  left: -3%;
+  left: -4%;
   border-radius: 55%;
   width: 15px;
   height: 15px;
@@ -353,17 +356,17 @@ header i {
   font-size: 30px;
 }
 
-.heart_card-anim {
+.fas {
+  opacity: 0;
   color: transparent;
-  font-size: 30px;
-}
-
-.heart_card-anim:hover {
-  color: transparent;
-  background: linear-gradient(#FF79DA, #9356DC);
+  background-image: linear-gradient(#FF79DA, #9356DC);
   background-clip: text;
   -webkit-background-clip: text;
-  transition: transform cubic-bezier(0.37, 0.38, 0.8, 0.77);
+  transition: 500ms;
+}
+
+.fas:hover {
+  opacity: 1;
 }
 
 .restaurants_title-card {

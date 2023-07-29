@@ -235,16 +235,16 @@ a {
   font-size: 30px;
 }
 
-.heart_card-anim {
-  font-size: 30px;
+.fas {
   opacity: 0;
-}
-
-.heart_card-anim:hover {
   color: transparent;
-  background: linear-gradient(#FF79DA, #9356DC);
+  background-image: linear-gradient(#FF79DA, #9356DC);
   background-clip: text;
   -webkit-background-clip: text;
+  transition: 500ms;
+}
+
+.fas:hover {
   opacity: 1;
 }
 
@@ -275,6 +275,15 @@ footer img {
   padding-top: 5px;
 }
 
+@media (max-width: 500px) {
+  .menu_text, .menu_card-title {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 240px;
+  }
+}
 @media (min-width: 768px) {
   .main-container {
     max-width: 1024px;

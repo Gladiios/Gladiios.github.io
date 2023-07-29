@@ -204,19 +204,21 @@ a
     right:5%
     font-size: 30px
 
-.heart_card-anim
-    font-size: 30px
+.fas
     opacity: 0
-
-.heart_card-anim:hover
     color: transparent
-    background: linear-gradient( #FF79DA,#9356DC)
+    background-image: linear-gradient(#FF79DA,#9356DC)
     background-clip: text
     -webkit-background-clip: text
+    transition: 500ms
+
+.fas:hover
     opacity: 1
+
 
 .fa-circle-check , .fa-utensils , .fa-handshake-angle
     color: white
+
 
 /***Footer***/
 
@@ -237,6 +239,16 @@ footer img
     height: 1.5em
     width: 9em
     padding-top:5px
+
+@media (max-width: 500px)
+    .menu_text , .menu_card-title
+        display: block
+        overflow: hidden
+        white-space: nowrap
+        text-overflow: ellipsis
+        max-width: 240px
+
+
 
 @media (min-width: 768px)
     .main-container
