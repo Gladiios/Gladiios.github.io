@@ -170,6 +170,12 @@ a
     animation-delay: 3s
     pointer-events: none
 
+.loader-text
+    font-size: 30px
+    color: white
+    position: absolute
+    bottom: 18%
+
 /***Header***/
 
 .location__background--darkergray 
@@ -301,22 +307,6 @@ header i
     justify-content: center
     padding-top:5px
 
-.heart_card
-    position: absolute
-    right:5%
-    font-size: 30px
-
-.fas
-    opacity: 0
-    color: transparent
-    background-image: linear-gradient(#FF79DA,#9356DC)
-    background-clip: text
-    -webkit-background-clip: text
-    transition: 500ms
-
-.fas:hover
-    opacity: 1
-
 .restaurants_title-card 
     margin: 3px 0
     padding-left:15px
@@ -340,6 +330,24 @@ header i
     top: 1.5rem
     right: 1rem
     z-index: 2
+
+/***Animation coeur au hover***/
+.heart_card
+    position: absolute
+    right:5%
+    font-size: 30px
+
+.fas
+    opacity: 0
+    color: transparent
+    background-image: linear-gradient(#FF79DA,#9356DC)
+    background-clip: text
+    -webkit-background-clip: text
+    transition: 500ms
+
+.fas:hover
+    opacity: 1
+
 
 /***Footer***/
 
