@@ -22,6 +22,7 @@
             <div class="logo centerflex">
                 <img src="./images/logo/ohmyfood@2x.svg" alt="logo ohmyfood">
             </div>
+            <!-- Flèche de retour vers la page d'accueil -->
             <div class="return_arrow">
                 <a href="Index.html">
                     <i class="fa-solid fa-arrow-left"></i>
@@ -35,11 +36,13 @@
                 </div>
                 <div class="menu_background"> 
                     <div class="entete">
-                        <h1 class="menu_title">La palette du goût</h1>                       
+                        <h1 class="menu_title">La palette du goût</h1>
+                        <!-- Coeur dupliqué afin de réalisé l'animation au hover -->
                         <i class="far fa-heart heart_card"></i>
                         <i class="fas fa-heart heart_card"></i>                
                     </div>
-                    <!--Le menu et ses différentes catégories-->   
+                    <!--Le menu et ses différentes catégories-->
+                    <!-- Opacity = 0 au chargement et les différentes catégories apparaissent une à une -->
                     <div class="menu_content">
                         <!--Entrees-->
                         <div class="entrees">
@@ -49,6 +52,9 @@
                                     <h3 class="menu_card-title">Fricassée d'escargots</h3>
                                     <p class="menu_text">Au piment d'Espelette</p>                      
                                 </div>
+                                <!-- Animation coche verte au prix, au hover la fait apparaitre, le cercle check fait un demi tour sur lui meme -->
+                                <!-- le prix se décale à l'apparition de l'élément -->
+                                <!-- la card a un overflow hidden et l'élément est en dehors de la card avec un  margin right négatif-->
                                 <span class="content_price">25€</span>
                                 <div class="menu_card-greencheck">
                                     <i class="fa-regular fa-circle-check"></i>

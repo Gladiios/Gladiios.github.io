@@ -1,32 +1,30 @@
 /***General***/
 
 *
-    font-family:'Roboto'
+    font-family: 'Roboto'
 
-.main-container 
+.main-container
     width: 100%
     max-width: 767px
     padding: 0
     margin: 0
 
-body 
+body
     display: flex
     justify-content: center
     padding: 0
     margin: 0
 
-
-.centerflex 
+.centerflex
     display: flex
     justify-content: center
     align-items: center
-
 
 .card__link
     color: black
     text-decoration: none
 
-.cta 
+.cta
     position: relative
     margin: auto
     box-shadow: 0px 4px 9px 0px #7E7E7E
@@ -38,24 +36,23 @@ body
     text-decoration: none
     color: white
 
-.cta:hover 
-    opacity:0.8
+.cta:hover
+    opacity: 0.8
     box-shadow: 0px 8px 12px 0px #444444
 
 .btn_padding
-    margin-top:60px
-    margin-bottom:20px
+    margin-top: 60px
+    margin-bottom: 20px
 
 a
     text-decoration: none
     color: white
 
-
 /***Header***/
 
 .logo
-    padding-top:20px
-    padding-bottom:10px
+    padding-top: 20px
+    padding-bottom: 10px
 
 .return_arrow
     position: relative
@@ -66,26 +63,26 @@ a
     color: black
 
 /***Section Menu***/
-    
+
 .background_picture1
     background-image: url('../images/restaurants/jay-wennington.jpg')
     background-size: cover
-    height: 300px 
+    height: 300px
 
 .background_picture2
     background-image: url('../images/restaurants/louis-hansel.jpg')
     background-size: cover
-    height: 300px 
+    height: 300px
 
 .background_picture3
     background-image: url('../images/restaurants/restaurant3copie.jpg')
     background-size: cover
-    height: 300px 
- 
+    height: 300px
+
 .background_picture4
     background-image: url('../images/restaurants/restaurant4.jpg')
     background-size: cover
-    height: 300px 
+    height: 300px
 
 .menu_section
     display: flex
@@ -106,21 +103,20 @@ a
     padding-right: 20px
     padding-top: 20px
 
-    
 .menu_title
-    font-size:2.2em
+    font-size: 2.2em
     font-family: Shrikhand
     font-weight: bold
-    padding-left:20px
-    padding-right:28px
+    padding-left: 20px
+    padding-right: 28px
 
 .menu_content
-    padding:0 20px 0 40px
+    padding: 0 20px 0 40px
 
-@keyframes fadeIn 
-    to 
+@keyframes fadeIn
+    to
         opacity: 1
-        
+
 .entrees
     opacity: 0
     animation: fadeIn 3s ease forwards
@@ -137,12 +133,12 @@ a
     animation-delay: 3.5s
 
 .menu_content-title
-    font-weight:100
-    font-size:1.6em
+    font-weight: 100
+    font-size: 1.6em
 
 .menu_content-title-bc
     border-bottom: 4px solid #99E2D0
-    width:60px
+    width: 60px
 
 .menu_card_description
     padding: 15px
@@ -152,22 +148,22 @@ a
     border-radius: 15px
     width: 95%
     background-color: #FFFFFF
-    margin-bottom:30px
+    margin-bottom: 30px
     display: flex
     overflow: hidden
 
 .menu_card h3, .menu_card p
     margin: 0
     padding: 0
-    
+
 .menu_text
-    font-weight:500
+    font-weight: 500
     display: flex
     justify-content: space-between
-    padding-right:20px
-    padding-left:20px
+    padding-right: 20px
+    padding-left: 20px
 
-.content_price 
+.content_price
     margin-left: auto
     font-weight: 900
     align-items: center
@@ -192,19 +188,19 @@ a
 .menu_card-greencheck i
     font-size: 1.6em
     transform: rotate(0.25turn)
-    transition-duration: 1s 
-    
+    transition-duration: 1s
+
 .menu_card:hover .menu_card-greencheck i
     transition-duration: 1s
     transform: rotate(1turn)
-    
+
 .menu_card-title
-    padding-left:20px
+    padding-left: 20px
 
 /***Animation coeur au hover***/
 .heart_card
     position: absolute
-    right:5%
+    right: 5%
     font-size: 30px
 
 .fas
@@ -222,25 +218,27 @@ a
 
 footer
     background-color: #353535
-    width:100%
+    width: 100%
     position: relative
 
-.footer_content 
+.footer_content
     color: white
-    padding:20px
+    padding: 20px
     z-index: 5
-    
+
 footer i 
-    padding-right:10px
-    
+    padding-right: 10px
+
 footer img 
     height: 1.5em
     width: 9em
-    padding-top:5px
+    padding-top: 5px
 
 .fa-circle-check , .fa-utensils , .fa-handshake-angle
     color: white
 
+/// Media Queries ///
+///Card cut////
 @media (max-width: 500px)
     .menu_text , .menu_card-title
         display: block
@@ -249,13 +247,10 @@ footer img
         text-overflow: ellipsis
         max-width: 160px
 
-
-
+////////
 @media (min-width: 768px)
     .main-container
         max-width: 1024px
-
-
 
 @media (min-width: 1024px)
     .main-container
@@ -272,11 +267,11 @@ footer img
         background-color: #FFFFFF
         margin-bottom: -60px
     .menu_background
-        padding-bottom:50px
+        padding-bottom: 50px
         margin-right: 75px
         margin-left: 75px
     .heart_card
-        right:30%
+        right: 30%
     /***Footer***/
     .footer_content
         display: flex
