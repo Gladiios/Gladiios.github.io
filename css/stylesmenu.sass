@@ -142,6 +142,11 @@ a
 
 .menu_card_description
     padding: 15px
+    display: flex
+    flex-direction: column
+    overflow: hidden
+    flex-direction: column
+    flex-shrink: 1
 
 .menu_card
     box-shadow: 0px 4px 5px 0px #7E7E7E
@@ -181,7 +186,6 @@ a
     transition-duration: 1s
 
 .menu_card:hover .menu_card-greencheck
-    transition-duration: 500ms
     margin-right: 0rem
     cursor: pointer
 
@@ -191,7 +195,6 @@ a
     transition-duration: 1s
 
 .menu_card:hover .menu_card-greencheck i
-    transition-duration: 1s
     transform: rotate(1turn)
 
 .menu_card-title
@@ -245,7 +248,6 @@ footer img
         overflow: hidden
         white-space: nowrap
         text-overflow: ellipsis
-        max-width: 160px
 
 ////////
 @media (min-width: 768px)

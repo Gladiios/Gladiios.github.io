@@ -166,6 +166,11 @@ a {
 
 .menu_card_description {
   padding: 15px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  flex-direction: column;
+  flex-shrink: 1;
 }
 
 .menu_card {
@@ -211,7 +216,6 @@ a {
 }
 
 .menu_card:hover .menu_card-greencheck {
-  transition-duration: 500ms;
   margin-right: 0rem;
   cursor: pointer;
 }
@@ -223,7 +227,6 @@ a {
 }
 
 .menu_card:hover .menu_card-greencheck i {
-  transition-duration: 1s;
   transform: rotate(1turn);
 }
 
@@ -284,7 +287,6 @@ footer img {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    max-width: 160px;
   }
 }
 @media (min-width: 768px) {
